@@ -70,7 +70,7 @@ test('should print correct state for retaining credentials', async () => {
       setActiveConnection={setActiveConnection}
       executeInitCmd={executeInitCmd}
       isConnected={false}
-      allowedSchemes={['neo4j']}
+      allowedSchemes={['ongdb']}
     />
   )
 
@@ -101,7 +101,7 @@ test('should print correct state for retaining credentials', async () => {
       setActiveConnection={setActiveConnection}
       executeInitCmd={executeInitCmd}
       isConnected={true}
-      allowedSchemes={['neo4j']}
+      allowedSchemes={['ongdb']}
     />
   )
 
@@ -125,7 +125,7 @@ test('should print correct state for retaining credentials', async () => {
       setActiveConnection={setActiveConnection}
       executeInitCmd={executeInitCmd}
       isConnected={true}
-      allowedSchemes={['neo4j']}
+      allowedSchemes={['ongdb']}
     />
   )
 
